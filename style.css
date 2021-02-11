@@ -303,9 +303,32 @@ header {
 .bx {
   width: 48px;
   height: 48px;
-  background-color: #edf1f7;
-  border-radius: 8px;
+  background-color: transparent;
+  border-radius: 10px;
   display: none;
+  position: relative;
+}
+
+.bx::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  width: 70%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.bx::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  width: 40%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 960px) {

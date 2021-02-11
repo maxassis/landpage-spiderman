@@ -81,9 +81,36 @@ header {
 .bx {
   width: 48px;
   height: 48px;
-  background-color: $white;
-  border-radius: 8px;
+  background-color: transparent;
+  border-radius: 10px;
   display: none;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 15%;
+
+    width: 70%;
+    height: 10%;
+
+    border-radius: 20px;
+    background-color: #fff;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 45%;
+
+    width: 40%;
+    height: 10%;
+
+    border-radius: 20px;
+    background-color: #fff;
+  }
 
   @include responsive() {
     display: block;
