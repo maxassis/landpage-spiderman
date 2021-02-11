@@ -7,6 +7,12 @@
   font-family: "Mukta", sans-serif;
 }
 
+@mixin responsive() {
+  @media screen and (max-width: 960px) {
+    @content;
+  }
+}
+
 @import "partials/colors";
 
 body {
@@ -27,7 +33,6 @@ a {
 }
 
 .border {
-  border: 1px solid red;
 }
 
 p {
@@ -40,3 +45,4 @@ p {
 @import "partials/layout";
 @import "partials/menu";
 @import "partials/animations";
+@import "partials/spacing";
