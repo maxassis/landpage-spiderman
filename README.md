@@ -8,9 +8,9 @@ Landpage do game Spiderman Miles Morales para Ps5, criado durante o evento Front
 
 ## Bibliotecas
 
-Jquery
+Jquery,
 Gsap
-Tilt
+e Tilt
 
 ## Web Page
 https://spiderman-landpage.netlify.app
