@@ -17,7 +17,7 @@ https://spiderman-landpage.netlify.app
 
 ## Telas
 
-![](https://images2.imgbox.com/2b/6c/PtVXXiv3_o.png)
+![](https://images2.imgbox.com/8e/4a/Rov7MODE_o.png)
 
 ![](https://images2.imgbox.com/da/3c/TVw8H4hE_o.png)
 
