@@ -1,6 +1,6 @@
 # Spider-man landpage
 
-Landpage do game Spiderman Miles Morales para Ps5, criado durante o evento FrontPush
+Landing page do game Spiderman Miles Morales para Ps5, criado durante o evento FrontPush
 
 ## Tecnologias principais
 
